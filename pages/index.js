@@ -21,14 +21,14 @@ export default function Home() {
       {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your GA4 ID
+        src={`https://www.googletagmanager.com/gtag/js?id=G-7QVNWD067E`} // Replace with your GA4 ID
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX'); // Replace with your GA4 ID
+          gtag('config', 'G-7QVNWD067E'); // Replace with your GA4 ID
         `}
       </Script>
 
