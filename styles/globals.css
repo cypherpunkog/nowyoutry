@@ -1,0 +1,13 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-top: 64px; /* Matches header height */
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
